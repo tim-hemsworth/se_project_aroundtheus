@@ -7,7 +7,7 @@
 }
 
 .page__content {
-    margin: 0 200px 0 200px;
+    padding: 0 20px 0 20px;
 }
 
 .header {
@@ -127,11 +127,15 @@
 .card__image {
     width: 282px;
     height: 282px;
+    object-fit: cover;
 }
 
 .card__title {
     padding: 20px 25px 20px 25px;
     margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card__heart {
@@ -167,4 +171,95 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+@media screen and (max-width:800px) {
+    .header {
+        max-width: 800px;
+    }
+
+    .card__image {    
+    width: 372px;
+    height: 372px;
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:320px) {    
+    .header {
+        max-width: 320px;
+    }
+
+    .page__content {
+        margin: 0 19px 0 19px;
+    }
+
+    .header {
+        padding-top: 28px;
+    }
+
+    .header__photo {
+        max-width: 126px;
+        max-height: 24px;
+    }
+
+    .profile {
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+        padding: 42px 0 0 0;
+    }
+
+    .profile__info {
+        padding: 0;
+    }
+
+    .profile__photo {
+        max-width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile__name {
+        font-family: "Inter", Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    .profile__name_flex {
+        justify-content: space-between;
+    }
+
+
+    .profile__subname {
+        font-family: "Inter", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 25px;
+    }
+
+    .profile__add_button {
+        Width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 251px;
+    }
+
 }

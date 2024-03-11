@@ -2,20 +2,20 @@
 
 ### Overview  
 
-* Intro  
-* Figma  
-* Images  
+* About the project  
+* Techniques used  
+* Further optimization  
   
-**Intro**
+**About the project**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This is my first attempt to code a site from scratch implementing responsive design. By using a combination of flex/grid/@media code, I have been able to create a site according to the design standards that looks good on many popular screen sizes.  
   
-**Figma**  
+**Techniques used**  
   
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+- Flexbox
+- Grid
+- @media
   
-**Images**  
+**Further optimization**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+To further the design of this site, I would add more @media detail, so that even more screen resolutions look good. This will lead to less "jarring" changes as one moves from a large screen size down to small. 
