@@ -1,11 +1,22 @@
+.footer {
+  max-width: 880px;
+}
+
 .footer_copyright {
-    color: #ffffff;
-    padding: 67px 0 60px 0;
-    margin: 0;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
+  color: #545454;
+  padding: 67px 0 60px 0;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 550px) {
+    .footer_copyright {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
