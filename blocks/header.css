@@ -1,17 +1,12 @@
 .header {
   max-width: 880px;
   padding-top: 45px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 .header__logo {
   max-width: 178px;
-  padding-bottom:41px;
-}
-
-.header__line {
-  max-width: 100%;
-  border: 1px solid #545454;
-  opacity: 70%;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 800px) {
@@ -22,8 +17,12 @@
 
 @media screen and (max-width: 550px) {
   .header {
-    max-width: 320px;
+    max-width: 550px;
     padding-top: 28px;
+  }
+
+  .header__logo {
+    max-width: 126px;
   }
 
   .header__photo {
