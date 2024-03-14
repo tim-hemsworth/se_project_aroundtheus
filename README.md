@@ -4,6 +4,9 @@
 
 https://tim-hemsworth.github.io/se_project_aroundtheus/
 
+**Video Walkthrough**
+https://www.loom.com/share/a2a77f4c16ad417c99d308174dfc80bc?sid=21ae4f3c-d117-40c2-8094-4e809214b2f6
+
 - About the project
 - Techniques used
 - Further optimization
