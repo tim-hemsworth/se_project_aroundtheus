@@ -112,6 +112,7 @@
   }
 
   .profile__info {
+    box-sizing: border-box;
     max-width: 100%;
   }
 
@@ -126,6 +127,8 @@
   .profile__name {
     font-size: 22px;
     line-height: 26.63px;
+    max-width: 196px;
+    padding-right: 10px;
   }
 
   .profile__subname {
